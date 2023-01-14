@@ -1,0 +1,119 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+}
+.container{
+    margin: 10px 100px 0px 100px;
+    background-color: white;
+    padding: 0% 20px;
+}
+.nav-ber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ul li{
+    list-style-type: none;
+}
+.list-item{
+    display: flex;
+    gap: 10px;
+}
+.journey{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+#pre-btn{
+    background-color: pink;
+    border: 0;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.half-width{
+    width: 440px;
+    padding-left: 30px;
+}
+.half-width h1{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 52px;   
+}
+.half-width p{
+    color: gray;
+    font-weight: 700;
+    font-size: 20px; 
+}
+/* -----------------------
+        brand section
+------------------------ */
+.all-brand{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+#title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.all-device img{
+    width: 300px;
+}
+.popular-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;    
+    gap: 20px;
+}
+.all-device{
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    padding: 5px 15px;
+    line-height: 4px;
+}
+.feture-product{
+    display: flex;
+    gap: 80px;
+    padding-top: 30px;
+    align-items: center;
+}
+.feture-product{
+    padding-left: 12px;
+}
+#feature-title{
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 35px;
+}
+#feature-details{
+    color: gray;
+    font-weight: 700px;
+    font-size: 15px;
+    line-height: 1px;
+}
+.footer{
+    margin: 0;
+}
+.footer-info{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 5px;
+    padding: 20px;
+    margin: 0 100px;
+
+}
+@media screen and (max-width: 576) {
+    .journey{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
